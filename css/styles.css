@@ -1,0 +1,15 @@
+
+/*////// BACKGROUNDS //////*/
+.container-fluid {
+    background-image: url(../images/sunset-turner.jpg);
+}
+
+.jumbotron {
+    background-image: url(../images/turner-red.jpg);
+  	background-size: 100%;
+  	filter: alpha(opacity=50); /* IE*/
+-moz-opacity: 0.5; /* Older than Firefox 0.9 */
+-khtml-opacity: 0.5; /* Safari 1.x (pre WebKit!) */
+opacity: 0.5; /* Modern! */
+
+}
