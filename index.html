@@ -5,76 +5,101 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Carolina Medellin</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <!-- My styles-->
+    <link href="css/styles.css" rel="stylesheet">
   </head>
   <body>
-    <div class="container-fluid">
-      <div class="header clearfix">
-        <nav>
-          <ul class="nav nav-pills pull-right">
-            <li role="presentation" class="active"><a href="#">Home</a></li>
-            <li role="presentation"><a href="#">About</a></li>
-            <li role="presentation"><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-        <h3 class="text-muted">Carolina Medellin</h3>
-      </div>
+<!-- Nav Bar-->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Carolina Medellin</a>
+          </div>
 
-      <div class="jumbotron">
-        <h1>Personal website and portfolio</h1>
-        <p class="lead">I welcome you to my new home, it is in the progess at the moment</p>
-        <p><a class="btn btn-lg btn-success" href="#" role="button">get to know me</a></p>
-      </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+              <li><a href="#">Coder Byte</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Interests<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Sports</a></li>
+                  <li><a href="#">Diet</a></li>
+                  <li><a href="#">School Experience</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Susteinability</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Game theory</a></li>
+                </ul>
+              </li>
+            </ul>
+            
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Contact</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Facebook</a></li>
+                  <li><a href="#">linkdin</a></li>
+                  <li><a href="#">Tweeter</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">email me!</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+<!-- Nav Bar Ends -->
+<!-- Main parts of this intro webpage -->
 
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h3>Guerrilla Living</h3>
-          <p>Particulars about theoretical life in a van. Minimal and ecological life to support a free lifestyle. This is mainly an information copitalation</p>
 
-          <h3>Factor Analysis Example</h3>
-          <p>My thesis in spanish, uses Factor Analysis to predict the government formation in Israel</p>
-
+  <div id="business-card" class="col-sm-6 col-md-4" >
+        <div class="thumbnail">
+          <img src="images/turner-red.jpg" alt="Carolina Medellin">
+          <div class="caption">
+            <h3>Profesional loiterer and part-time Instagrammer</h3>
+            <p>...</p>
+          </div>
         </div>
-
-        <div class="col-lg-6">
-          
-            <div class="col-xsm-6">
-            <h3>Shared economy</h3>
-          <p>Neo-crazy ideas to share goods and services. This is my effort to find patches and debouging for our current economical system in search of more efficiency</p>
-        </div>
-          
-           <div class="col-xsm-6">
-            <h3>Portfolio</h3>
-          <p>non existent at the moment</p>
-
-           </div>
-          
-          
-          
-
-        </div>
       </div>
-
-      <footer class="footer">
-        <p>© Company 2014</p>
-      </footer>
-
-    </div> <!-- /container -->
+  </div>
 
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  <div class="col-sm-6 col-md-8">
+    <div class="thumbnail">
+      <img src="..." alt="...">
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+      </div>
+    </div>
+  </div>
 
+
+
+
+<!-- end of Body and start of link that I will use to style this-->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
