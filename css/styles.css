@@ -128,3 +128,18 @@ div.ei {
   display: block;
   position: left;
 }
+#list{
+  display: inline-block;
+}
+.title{
+  text-align: center;
+}
+
+.carousel-wrapper{
+    width: 1500px;
+    height: 1500px;
+    float: left;
+    margin: 10px;
+    padding: 20px;
+
+}
